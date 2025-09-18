@@ -133,7 +133,7 @@ func printStar(num int) {
 func printMatrixStar(num int) {
 	for i := 1; i <= num; i++ {
 		for j := 1; j <= num; j++ {
-			fmt.Print("*")
+			fmt.Printf("%4d", i*j)
 		}
 		fmt.Println()
 	}
