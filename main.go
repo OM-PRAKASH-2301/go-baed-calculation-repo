@@ -50,7 +50,7 @@ func main() {
 			printFibonacci(num)
 
 		case 11:
-			fmt.Println("Exiting program. Goodbye 👋")
+			fmt.Println("Exiting program. Goodbye")
 			return
 
 		default:
@@ -83,7 +83,7 @@ func readPositiveInt(prompt string) int {
 		if num > 0 {
 			return num
 		}
-		fmt.Println("⚠️ Please enter a number greater than 0")
+		fmt.Println("Please enter a number greater than 0")
 	}
 }
 
